@@ -1,12 +1,14 @@
 # Lab3_XLAS: Biến đổi hình học
 
-**Sinh viên thực hiện: Lê Hoài Phương MSSV: 207CT10264
-**Môn học: Nhập môn Xử lý ảnh số
-**Giảng viên: Đỗ Hữu Quân
+*Sinh viên thực hiện: Lê Hoài Phương MSSV: 207CT10264
+*Môn học: Nhập môn Xử lý ảnh số
+*Giảng viên: Đỗ Hữu Quân
+---
 
 # 1. Chọn đối tượng trong ảnh
    Mục đích:
    * Cắt ảnh nhỏ trong ảnh gốc ban đầu
+   
    Cấu trúc code:
    ```bash
    example = data[800:1200, 570:980]
@@ -28,6 +30,7 @@
 # 3. Thay đổi kích thước ảnh
    Mục đích:
    * Phóng to ảnh
+   
    Cấu trúc code:
    ```bash
    example = nd.zoom(data, (5, 5, 1))
@@ -38,6 +41,7 @@
 # 4. Xoay ảnh
    Mục đích:
    * Xoay ảnh theo góc mong muốn
+   
    Cấu trúc code:
    ```bash
    example = nd.rotate(data, 30)
