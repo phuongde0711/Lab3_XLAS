@@ -6,7 +6,7 @@
 
 # 1. Chọn đối tượng trong ảnh
    Mục đích:
-   * **Cắt ảnh nhỏ trong ảnh gốc ban đầu
+   * Cắt ảnh nhỏ trong ảnh gốc ban đầu
    Cấu trúc code:
    ```bash
    example = data[800:1200, 570:980]
@@ -17,6 +17,7 @@
 # 2. Tịnh tiến đơn
    Mục đích:
    * Để dịch chuyển ảnh 
+   
    Cấu trúc code:
    ```bash
    example = nd.shift(data, (100, 25))
