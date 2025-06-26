@@ -1,14 +1,12 @@
-# Lab3_XLAS
+# Lab3_XLAS: Biến đổi hình học
 
-Sinh viên thực hiện: Lê Hoài Phương MSSV: 207CT10264
-Môn học: Nhập môn Xử lý ảnh số
-Giảng viên: Đỗ Hữu Quân
-
-Biến đổi hình học
+**Sinh viên thực hiện: Lê Hoài Phương MSSV: 207CT10264
+**Môn học: Nhập môn Xử lý ảnh số
+**Giảng viên: Đỗ Hữu Quân
 
 # 1. Chọn đối tượng trong ảnh
    Mục đích:
-   Cắt ảnh nhỏ trong ảnh gốc ban đầu
+   * **Cắt ảnh nhỏ trong ảnh gốc ban đầu
    Cấu trúc code:
    * **`example = data[800:1200, 570:980]`
    * **`800:1200`: Chỉ định phạm vi cột dọc (từ 800 đến 1199).
@@ -16,7 +14,7 @@ Biến đổi hình học
    
 # 2. Tịnh tiến đơn
    Mục đích:
-   Để dịch chuyển ảnh 
+   * **Để dịch chuyển ảnh 
    Cấu trúc code:
    * **`example = nd.shift(data, (100, 25))`
    * **`nd.shift()`: Là hàm từ scipy.ndimage để dịch chuyển dữ liệu
