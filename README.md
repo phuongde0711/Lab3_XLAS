@@ -1,4 +1,9 @@
 # Lab3_XLAS
+
+Sinh viên thực hiện: Example MSSV: Example
+Môn học: Nhập môn Xử lý ảnh số
+Giảng viên: Đỗ Hữu Quân
+
 Biến đổi hình học
 
 1. Chọn đối tượng trong ảnh
