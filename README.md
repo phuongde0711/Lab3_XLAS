@@ -5,6 +5,7 @@ Sinh viên thực hiện: Lê Hoài Phương MSSV: 207CT10264
 Môn học: Nhập môn Xử lý ảnh số
 
 Giảng viên: Đỗ Hữu Quân
+
 ---
 
 # 1. Chọn đối tượng trong ảnh
